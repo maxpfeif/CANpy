@@ -1,4 +1,4 @@
-__author__ = "Stefan Hölzl"
+__author__ = "Stefan Holzl"
 __all__ = ['CANAttributesContainer', 'CANAttribute', 'CANStringAttributeDefinition', 'CANIntAttributeDefinition',
            'CANFloatAttributeDefinition', 'CANEnumAttributeDefinition']
 

@@ -1,7 +1,7 @@
-__author__ = "Stefan Hölzl"
+__author__ = "Stefan Holzl"
 __all__ = ['CANNode']
 
-from canpy.can_objects.can_network import CANObject
+from CANpy.canpy.can_objects.can_network import CANObject
 
 class CANNode(CANObject):
     """Representation of a CAN-Node"""

@@ -1,7 +1,7 @@
-__author__ = "Stefan Hölzl"
+__author__ = "Stefan Holzl"
 __all__ = ['CANMessage']
 
-from canpy.can_objects.can_object import CANObject
+from CANpy.canpy.can_objects.can_object import CANObject
 
 
 class CANMessage(CANObject):

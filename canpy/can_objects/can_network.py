@@ -1,10 +1,10 @@
-__author__ = "Stefan Hölzl"
+__author__ = "Stefan Holzl"
 __all__ = ['CANNetwork']
 
-from canpy.can_objects import CANObject
-from canpy.can_objects.can_signal import CANSignal
-from canpy.can_objects.can_message import CANMessage
-from canpy.can_objects.can_attribute import CANEnumAttributeDefinition, CANIntAttributeDefinition
+from CANpy.canpy.can_objects import CANObject
+from CANpy.canpy.can_objects.can_signal import CANSignal
+from CANpy.canpy.can_objects.can_message import CANMessage
+from CANpy.canpy.can_objects.can_attribute import CANEnumAttributeDefinition, CANIntAttributeDefinition
 
 
 class CANNetwork(CANObject):

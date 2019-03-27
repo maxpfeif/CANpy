@@ -1,7 +1,7 @@
-__author__ = "Stefan Hölzl"
+__author__ = "Stefan Holzl"
 __all__ = ['CANObject', 'CANNone']
 
-from canpy.can_objects.can_attribute import CANAttributesContainer
+from CANpy.canpy.can_objects.can_attribute import CANAttributesContainer
 
 
 class CANObject(object):
